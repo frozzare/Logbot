@@ -20,7 +20,7 @@ module IRC_Log
     end
 
     get "/" do
-      redirect "/channel/g0v.tw/today"
+      redirect "/channel/t12t/today"
     end
 
     get "/channel/:channel" do |channel|
